@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Data files (large files - to be hosted on Google Drive)
+vector_db.index
+metadata.json
+chunks.json
+
+# Folders with PDFs (user should download separately)
+gst_database/
+cleaned_pdfs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
